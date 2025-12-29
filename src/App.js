@@ -1,4 +1,5 @@
 import Header from "./components/header";
+import NewMenu from "./components/Menu/menu";
 import Texte from "./components/Texte";
 import Presentation from "./components/presentation";
 import Menu from "./components/Menu";
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Presentation></Presentation>
-      <Menu></Menu>
+      <NewMenu></NewMenu>
       <Event></Event>
       <Footer></Footer>
       

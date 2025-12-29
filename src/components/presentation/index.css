@@ -16,9 +16,11 @@
     font-size: 19px;
     color: white;
     text-align: center;
+    width: 80%;
 }
 .pres h1{
     color: white;
+    font-weight: 500;
 }
 .variantebouton{
     display: flex;
