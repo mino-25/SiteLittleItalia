@@ -1,8 +1,6 @@
 import React from 'react'
 
-export const Thumb = (props) => {
-  const { selected, index, onClick } = props
-
+export const Thumb = ({ selected, imgSrc, onClick }) => {
   return (
     <div
       className={'embla-thumbs__slide'.concat(
@@ -12,9 +10,13 @@ export const Thumb = (props) => {
       <button
         onClick={onClick}
         type="button"
-        className="embla-thumbs__slide__number"
+        className="embla-thumbs__slide__button"
       >
-        {index + 1}
+        <img
+          className="embla-thumbs__slide__img"
+          src={imgSrc}
+          alt=""
+        />
       </button>
     </div>
   )
